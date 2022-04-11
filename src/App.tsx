@@ -1,8 +1,15 @@
+import { Dashboard } from "./components/Dashboard"
+import { Header } from "./components/Header"
+import "./styles/Main.scss"
+
 function App() {
   return (
-    <div className="App">
-      <h3>Vite React App</h3>
-    </div>
+    <>
+      <Header title="HW Tracker" />
+      <main className="page-main">
+        <Dashboard />
+      </main>
+    </>
   )
 }
 

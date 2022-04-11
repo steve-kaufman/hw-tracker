@@ -1,0 +1,26 @@
+.page-main {
+  flex-grow: 2;
+  background-color: rgb(43, 67, 70);
+  overflow: scroll;
+  padding: 1rem;
+}
+
+.main-header {
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  background: rgba($color: white, $alpha: 0.1);
+}
+
+.main-section {
+  padding: 1rem;
+
+  .section-header {
+    font-weight: normal;
+    color: white;
+    padding: 0.5rem 1rem;
+    background: rgba($color: white, $alpha: 0.1);
+    border-bottom: 1px solid white;
+  }
+}
